@@ -280,9 +280,6 @@ body {
   justify-content: space-between;
 }
 
-.dapibus-bottom-right {
-}
-
 .dapibus-bottom-right h3 {
   font-family: 'Playfair Display';
   font-style: normal;
@@ -315,4 +312,122 @@ body {
 
   color: #1c1311;
   text-decoration: none;
+}
+
+.nft {
+  padding-top: 124px;
+  height: 1014px;
+  background-image: url(../img/Rectangle\ 2\ .jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nft-row {
+}
+.nft-row-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nft-left-top {
+}
+
+.nft-left-top h3 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 67px;
+
+  color: #e2a23b;
+
+  margin-bottom: 30px;
+}
+
+.nft-left-top p {
+  width: 631px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #e9dec3;
+}
+
+.nft-right-top {
+  position: relative;
+  /* width: 631px; */
+}
+
+.nft-right-top-desc {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.nft-right-top-desc h4 {
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #e2a23b;
+  margin-bottom: 9px;
+}
+
+.nft-right-top-desc p {
+  text-align: center;
+  padding-bottom: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #e9dec3;
+}
+
+.nft-row-bottom {
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.nft-bottom {
+  position: relative;
+  margin-right: 45px;
+}
+
+.nft-bottom:last-child {
+  margin-right: 0;
+}
+
+.nft-bottom-desc {
+  width: 379px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nft-bottom-desc h4 {
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #e2a23b;
+  margin-bottom: 9px;
+}
+
+.nft-bottom-desc p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #e9dec3;
+  text-align: center;
+  padding-bottom: 24px;
 }
